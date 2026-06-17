@@ -1,0 +1,364 @@
+- id: "2025-etoAlmostGorensteinSimplicial2025"
+  title: "Almost Gorenstein simplicial semigroup rings"
+  authors:
+    - "Kazufumi Eto"
+    - "Naoyuki Matsuoka"
+    - "Takahiro Numata"
+    - "Kei-ichi Watanabe"
+  journal: "Journal of Pure and Applied Algebra"
+  volume: "229"
+  number: "1"
+  pages: "107835"
+  year: 2025
+  doi: "10.1016/j.jpaa.2024.107835"
+  arxiv: "2406.05781"
+
+- id: "2025-kumashiroNearlyGorensteinLocal2025"
+  title: "Nearly Gorenstein local rings defined by maximal minors of a $2 \\times n$ matrix"
+  authors:
+    - "Shinya Kumashiro"
+    - "Naoyuki Matsuoka"
+    - "Taiga Nakashima"
+  journal: "Semigroup Forum"
+  volume: "110"
+  number: ""
+  pages: "317—343"
+  year: 2025
+  doi: "10.1007/s00233-025-10508-3"
+  arxiv: "2308.04234"
+
+- id: "2025-etoUpperBoundFrobenius2025"
+  title: "An upper bound for the Frobenius number and stretched numerical semigroups"
+  authors:
+    - "Kazufumi Eto"
+    - "Naoyuki Matsuoka"
+    - "Takahiro Numata"
+    - "Kei-ichi Watanabe"
+  journal: "Communications in Algebra"
+  volume: "53"
+  number: ""
+  pages: "1—12"
+  year: 2025
+  doi: "10.1080/00927872.2025.2498051"
+  arxiv: ""
+
+- id: "2025-rings-with-q-torsionfree-canonical-modules"
+  title: "Rings with $q$-torsionfree canonical modules"
+  authors:
+    - "Naoki Endo"
+    - "Laura Ghezzi"
+    - "Shiro Goto"
+    - "Jooyoun Hong"
+    - "Shin-ichiro Iai"
+    - "Toshinori Kobayashi"
+    - "Naoyuki Matsuoka"
+    - "Ryo Takahashi"
+  journal: "Commutative Algebra: The Mathematical Legacy of Wolmer V. Vasconcelos"
+  volume: ""
+  number: ""
+  pages: "405—426"
+  year: 2025
+  doi: "10.1515/9783110999365-014"
+  arxiv: "2301.02635"
+
+- id: "2024-endoUlrichIdealsRing2024"
+  title: "Ulrich ideals in the ring k[[t5,t11]]"
+  authors:
+    - "Naoki Endo"
+    - "Shiro Goto"
+    - "Shin-ichiro Iai"
+    - "Naoyuki Matsuoka"
+  journal: "International Journal of Algebra and Computation"
+  volume: "34"
+  number: "03"
+  pages: "351-369"
+  year: 2024
+  doi: "10.1142/s0218196724500127"
+  arxiv: ""
+
+- id: "2024-endoRemarksAlmostGorenstein2024"
+  title: "Remarks on almost Gorenstein rings"
+  authors:
+    - "Naoki Endo"
+    - "Naoyuki Matsuoka"
+  journal: "Communications in Algebra"
+  volume: "52"
+  number: "7"
+  pages: "2884-2891"
+  year: 2024
+  doi: "10.1080/00927872.2024.2310163"
+  arxiv: "2307.13479"
+
+- id: "2023-IkumaStretched2023"
+  title: "数値半群環の stretched 性に関するテストエレメントについて"
+  authors:
+    - "生熊 克健"
+    - "松岡 直之"
+  journal: "明治大学理工学部研究報告"
+  volume: "57"
+  number: ""
+  pages: "1—9"
+  year: 2023
+  doi: ""
+  arxiv: ""
+
+- id: "2023-endoWEAKLYARFS2IFICATIONS2023"
+  title: "On the weakly Arf $(S_2)$-ifications of Noetherian rings"
+  authors:
+    - "Naoki Endo"
+    - "Shiro Goto"
+    - "Shin-ichiro Iai"
+    - "Naoyuki Matsuoka"
+  journal: "Journal of Commutative Algebra"
+  volume: "15"
+  number: "3"
+  pages: "303—319"
+  year: 2023
+  doi: "10.1216/jca.2023.15.303"
+  arxiv: "2204.12132"
+
+- id: "2023-celikbasUBIQUITYARFRINGS2023"
+  title: "On the ubiquity of Arf rings"
+  authors:
+    - "Ela Celikbas"
+    - "Olgur Celikbas"
+    - "Cătălin Ciupercă"
+    - "Naoki Endo"
+    - "Shiro Goto"
+    - "Ryotaro Isobe"
+    - "Naoyuki Matsuoka"
+  journal: "Journal of Commutative Algebra"
+  volume: "15"
+  number: "2"
+  pages: "177—231"
+  year: 2023
+  doi: "10.1216/jca.2023.15.177"
+  arxiv: "2006.01330"
+
+- id: "2022-endoWhenAreRings2022"
+  title: "When are the rings $I:I$ Gorenstein?"
+  authors:
+    - "Naoki Endo"
+    - "Shiro Goto"
+    - "Shin-ichiro Iai"
+    - "Naoyuki Matsuoka"
+  journal: "Communications in Algebra"
+  volume: "51"
+  number: "4"
+  pages: "1721-1734"
+  year: 2022
+  doi: "10.1080/00927872.2022.2141764"
+  arxiv: "2111.13338"
+
+- id: "2020-kienMED2020"
+  title: "Numerical semigroup rings of maximal embedding dimension with determinantal defining ideals"
+  authors:
+    - "Do Van Kien"
+    - "Naoyuki Matsuoka"
+  journal: "Numerical Semigroups (Springer INdAM Ser.)"
+  volume: "40"
+  number: ""
+  pages: "185—196"
+  year: 2020
+  doi: "10.1007/978-3-030-40822-0_12"
+  arxiv: ""
+
+- id: "2020-endoEfficientGenerationIdeals2020"
+  title: "Efficient generation of ideals in core subalgebras of the polynomial ring $k[t]$ over a field $k$"
+  authors:
+    - "Naoki Endo"
+    - "Shiro Goto"
+    - "Naoyuki Matsuoka"
+    - "Yuki Yamamoto"
+  journal: "Proceedings of the American Mathematical Society"
+  volume: "148"
+  number: "8"
+  pages: "3283-3292"
+  year: 2020
+  doi: "10.1090/proc/15032"
+  arxiv: ""
+
+- id: "2019-gotoAlmostGorensteinProperty2019"
+  title: "On the almost Gorenstein property in the Rees algebras of contracted ideals"
+  authors:
+    - "Shiro Goto"
+    - "Naoyuki Matsuoka"
+    - "Naoki Taniguchi"
+    - "Ken-ichi Yoshida"
+  journal: "Kyoto Journal of Mathematics"
+  volume: "59"
+  number: "4"
+  pages: "769—785"
+  year: 2019
+  doi: "10.1215/21562261-2018-0001"
+  arxiv: ""
+
+- id: "2019-CGKM"
+  title: "Sally modules of canonical ideals in dimension one and 2-AGL rings"
+  authors:
+    - "Tran Do Minh Chau"
+    - "Shiro Goto"
+    - "Shinya Kumashiro"
+    - "Naoyuki Matsuoka"
+  journal: "Journal of Algebra"
+  volume: "521"
+  number: ""
+  pages: "299-330"
+  year: 2019
+  doi: "10.1016/j.jalgebra.2018.11.023"
+  arxiv: ""
+
+- id: "2018-gotoAlmostGorensteinRees2018"
+  title: "Almost Gorenstein Rees Algebras of pg-Ideals, Good Ideals, and Powers of the Maximal Ideals"
+  authors:
+    - "Shiro Goto"
+    - "Naoyuki Matsuoka"
+    - "Naoki Taniguchi"
+    - "Ken-ichi Yoshida"
+  journal: "Michigan Mathematical Journal"
+  volume: "67"
+  number: "1"
+  pages: "159—174"
+  year: 2018
+  doi: "10.1307/mmj/1516330972"
+  arxiv: ""
+
+- id: "2018-gotoPseudoFrobeniusNumbersDefining2018"
+  title: "Pseudo-Frobenius numbers versus defining ideals in numerical semigroup rings"
+  authors:
+    - "Shiro Goto"
+    - "Do Van Kien"
+    - "Naoyuki Matsuoka"
+    - "Hoang Le Truong"
+  journal: "Journal of Algebra"
+  volume: "508"
+  number: ""
+  pages: "1-15"
+  year: 2018
+  doi: "10.1016/j.jalgebra.2018.04.025"
+  arxiv: ""
+
+- id: "2016-gotoAlmostGorensteinRees2016"
+  title: "The almost Gorenstein Rees algebras over two-dimensional regular local rings"
+  authors:
+    - "Naoyuki Matsuoka"
+    - "Naoki Taniguchi"
+    - "Ken-ichi Yoshida"
+    - "Shiro Goto"
+  journal: "Journal of Pure and Applied Algebra"
+  volume: "220"
+  number: "10"
+  pages: "3425-3436"
+  year: 2016
+  doi: "10.1016/j.jpaa.2016.04.007"
+  arxiv: ""
+
+- id: "2016-gotoAlmostGorensteinRees2016-params"
+  title: "The almost Gorenstein Rees algebras of parameters"
+  authors:
+    - "Shiro Goto"
+    - "Naoyuki Matsuoka"
+    - "Naoki Taniguchi"
+    - "Ken-ichi Yoshida"
+  journal: "Journal of Algebra"
+  volume: "452"
+  number: ""
+  pages: "263-278"
+  year: 2016
+  doi: "10.1016/j.jalgebra.2015.12.022"
+  arxiv: ""
+
+- id: "2016-matsuokaUniformlyCohenMacaulaySimplicial2016"
+  title: "Uniformly Cohen–Macaulay simplicial complexes and almost Gorenstein* simplicial complexes"
+  authors:
+    - "Naoyuki Matsuoka"
+    - "Satoshi Murai"
+  journal: "Journal of Algebra"
+  volume: "455"
+  number: ""
+  pages: "14-31"
+  year: 2016
+  doi: "10.1016/j.jalgebra.2016.02.005"
+  arxiv: ""
+
+- id: "2013-GMP"
+  title: "Almost Gorenstein rings"
+  authors:
+    - "Shiro Goto"
+    - "Naoyuki Matsuoka"
+    - "Tran Thi Phuong"
+  journal: "Journal of Algebra"
+  volume: "379"
+  number: ""
+  pages: "355-381"
+  year: 2013
+  doi: "10.1016/j.jalgebra.2013.01.025"
+  arxiv: "1106.1301"
+
+- id: "2009-kuranoFiniteGenerationSymbolic2009"
+  title: "On finite generation of symbolic Rees rings of space monomial curves and existence of negative curves"
+  authors:
+    - "Kazuhiko Kurano"
+    - "Naoyuki Matsuoka"
+  journal: "Journal of Algebra"
+  volume: "322"
+  number: "9"
+  pages: "3268-3290"
+  year: 2009
+  doi: "10.1016/j.jalgebra.2008.08.015"
+  arxiv: ""
+
+- id: "2009-gotoQuasisocleIdealsLocal2009"
+  title: "Quasi-socle ideals in local rings with Gorenstein tangent cones"
+  authors:
+    - "Shiro Goto"
+    - "Satoru Kimura"
+    - "Naoyuki Matsuoka"
+    - "Tran Thi Phuong"
+  journal: "Journal of Commutative Algebra"
+  volume: "1"
+  number: "4"
+  pages: "603—620"
+  year: 2009
+  doi: "10.1216/jca-2009-1-4-603"
+  arxiv: ""
+
+- id: "2008-gotoQuasisocleIdealsGorenstein2008"
+  title: "Quasi-socle ideals in Gorenstein numerical semigroup rings"
+  authors:
+    - "Shiro Goto"
+    - "Satoru Kimura"
+    - "Naoyuki Matsuoka"
+  journal: "Journal of Algebra"
+  volume: "320"
+  number: "1"
+  pages: "276-293"
+  year: 2008
+  doi: "10.1016/j.jalgebra.2008.01.015"
+  arxiv: ""
+
+- id: "2008-gotoQuasisocleIdealsGorenstein2008-local"
+  title: "Quasi-socle ideals in a Gorenstein local ring"
+  authors:
+    - "Shiro Goto"
+    - "Ryo Takahashi"
+    - "Naoyuki Matsuoka"
+  journal: "Journal of Pure and Applied Algebra"
+  volume: "212"
+  number: "5"
+  pages: "969-980"
+  year: 2008
+  doi: "10.1016/j.jpaa.2007.07.018"
+  arxiv: ""
+
+- id: "2006-matsuokaFrakmFullPowersParameter2006"
+  title: "On $\\frak{m}$-Full Powers of Parameter Ideals"
+  authors:
+    - "Naoyuki Matsuoka"
+  journal: "Tokyo Journal of Mathematics"
+  volume: "29"
+  number: "2"
+  pages: "405—411"
+  year: 2006
+  doi: "10.3836/tjm/1170348175"
+  arxiv: ""

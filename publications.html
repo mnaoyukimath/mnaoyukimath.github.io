@@ -1,0 +1,26 @@
+---
+layout: default
+title: Publications
+---
+
+<h1>Publications</h1>
+
+<ol reversed>
+{% for paper in site.data.publications %}
+  <li>
+    {{ paper.authors | join: ", " }},
+    "{{ paper.title }}",
+    <i>{{ paper.journal }}</i>
+    {% if paper.volume %} {{ paper.volume }}{% endif %}
+    {% if paper.number %}({{ paper.number }}){% endif %}
+    {% if paper.pages %}, {{ paper.pages }}{% endif %}
+    {% if paper.year %} ({{ paper.year }}){% endif %}.
+    {% if paper.doi %}
+      <a href="https://doi.org/{{ paper.doi }}">DOI</a>
+    {% endif %}
+    {% if paper.arxiv %}
+      <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv</a>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
