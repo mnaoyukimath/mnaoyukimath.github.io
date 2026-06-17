@@ -1,3 +1,19 @@
+- id: "2025-kumashiro
+
+- id: "2026-atakaNormalityMonomialIdeals"
+  title: "Pseudo-Frobenius numbers and defining ideals in stretched numerical semigroup rings"
+  authors:
+    - "Do Van Kien"
+    - "Naoyuki Matsuoka"
+	- "Taiga Ozaki"
+  journal: "submitted"
+  volume: ""
+  number: ""
+  pages: ""
+  year: 2025
+  doi: ""
+  arxiv: "2501.06415"
+
 - id: "2025-etoAlmostGorensteinSimplicial2025"
   title: "Almost Gorenstein simplicial semigroup rings"
   authors:
