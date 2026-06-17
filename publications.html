@@ -2,52 +2,62 @@
 title: Publications
 ---
 
-<h1>Publications</h1>
-
-<h2>Refereed Papers</h2>
-<ol reversed>
-  {% for paper in site.data.publications %}
-  {% if paper.type == "refereed" %}
-    <li>
-    {{ paper.authors | join: ", " }},
-    "{{ paper.title }}",
-    <i>{{ paper.journal }}
-      {% if paper.volume %} {{ paper.volume }}{% endif %}
-      {% if paper.number %}({{ paper.number }}){% endif %}
-      {% if paper.pages %}, {{ paper.pages }}{% endif %}
-      {% if paper.year %} ({{ paper.year }}){% endif %}.
-      {% if paper.doi %}
-      <a href="https://doi.org/{{ paper.doi }}" target="_blank">DOI</a>
-    </i>
-    {% endif %}
-    {% if paper.arxiv and paper.arxiv != "" %}
-    <a href="https://arxiv.org/abs/{{ paper.arxiv }}" target="_blank">arXiv</a>
-    {% endif %}
-    </li>
-  {% endif %}
-  {% endfor %}
-</ol>
-
-<h2>Preprints</h2>
-<ol reversed>
-  {% for paper in site.data.publications %}
-  {% if paper.type == "preprint" %}
-  <li>
-  {{ paper.authors | join: ", " }},
-  "{{ paper.title }}",
-  <i>{{ paper.journal }}
-    {% if paper.volume %} {{ paper.volume }}{% endif %}
-    {% if paper.number %}({{ paper.number }}){% endif %}
-    {% if paper.pages %}, {{ paper.pages }}{% endif %}
-    {% if paper.year %} ({{ paper.year }}){% endif %}.
-    {% if paper.doi %}
-    <a href="https://doi.org/{{ paper.doi }}" target="_blank">DOI</a>
-  </i>
-  {% endif %}
-  {% if paper.arxiv and paper.arxiv != "" %}
-  <a href="https://arxiv.org/abs/{{ paper.arxiv }}" target="_blank">arXiv</a>
-  {% endif %}
-  </li>
-  {% endif %}
-  {% endfor %}
-</ol>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Publications | Naoyuki Matsuoka</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    
+    <header>
+      <div class="site-header">
+        <p class="site-title">Naoyuki Matsuoka</p>
+        <p class="site-subtitle">Research Activities</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="preprints.html">Preprints</a>
+        <a href="talks.html">Talks</a>
+        <a href="https://www.isc.meiji.ac.jp/~naomatsu/" target="_blank" rel="noopener noreferrer">Laboratory Page</a>
+      </nav>
+    </header>
+    
+    <main>
+    <h1>Publications</h1>
+    
+    <ol reversed class="pub-list">
+      {% for paper in site.data.publications %}
+      {% if paper.type == "refereed" %}
+      <li>
+      <div class="pub-title">{{ paper.title }}</div>
+      <div>{{ paper.authors | join: ", " }}</div>
+      <div class="pub-meta">
+        <i>{{ paper.journal }}</i>
+        {% if paper.volume %} {{ paper.volume }}{% endif %}
+        {% if paper.number %}({{ paper.number }}){% endif %}
+        {% if paper.pages %}, {{ paper.pages }}{% endif %}
+        {% if paper.year %} ({{ paper.year }}){% endif %}.
+      </div>
+      <div class="links">
+        {% if paper.doi %}
+        <a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
+        {% endif %}
+        {% if paper.arxiv %}
+        <a href="https://arxiv.org/abs/{{ paper.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>
+        {% endif %}
+      </div>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ol>
+    </main>
+    
+    <footer>
+      <p>Naoyuki Matsuoka / Meiji University</p>
+    </footer>
+    
+  </body>
+</html>
