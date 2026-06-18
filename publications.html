@@ -27,10 +27,13 @@ title: Publications
     
     <main>
     <h1>Publications</h1>
+
+    {% assign preprints = site.data.publications | where: "type", "preprint" %}
+    {% assign refereed = site.data.publications | where: "type", "refereed" %}
     
-    <ol reversed class="pub-list">
-      {% for paper in site.data.publications %}
-      {% if paper.type == "refereed" %}
+      <h2>Refereed Papers</h2>
+      <ol reversed class="pub-list">
+        {% for paper in refereed %}
       <li>
       <div class="pub-title">{{ paper.title }}</div>
       <div>{{ paper.authors | join: ", " }}</div>
@@ -53,10 +56,40 @@ title: Publications
         {% endif %}
       </div>
       </li>
-      {% endif %}
       {% endfor %}
     </ol>
+
+    {% if preprints.size > 0 %}
+    <h2>Preprints</h2>
+    <ol reversed class="pub-list">
+      {% for paper in preprints %}
+      <li>
+      <div class="pub-title">{{ paper.title }}</div>
+      <div>{{ paper.authors | join: ", " }}</div>
+      <div class="pub-meta">
+        <i>{{ paper.journal }}</i>
+        {% if paper.volume and paper.volume != "" %} {{ paper.volume }}{% endif %}
+        {% if paper.number and paper.number != "" %}({{ paper.number }}){% endif %}
+        {% if paper.pages and paper.pages != "" %}, {{ paper.pages }}{% endif %}
+        {% if paper.year and paper.year != "" %} ({{ paper.year }}){% endif %}.
+      </div>
+      <div class="links">
+        {% if paper.doi and paper.doi != "" %}
+        <a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
+        {% endif %}
+        {% if paper.arxiv and paper.arxiv != "" %}
+        <a href="https://arxiv.org/abs/{{ paper.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>
+        {% endif %}
+        {% if paper.link and paper.link != "" %}
+        <a href="{{ paper.link }}" target="_blank" rel="noopener noreferrer">Link</a>
+        {% endif %}
+      </div>
+      </li>
+      {% endfor %}
+    </ol>
+    {% endif %}
     </main>
+
     
     <footer>
       <p>Naoyuki Matsuoka / Meiji University</p>
