@@ -12,6 +12,7 @@
   year: 2025
   doi: ""
   arxiv: "2501.06415"
+  link: ""
 
 - id: "2026-atakaNormalityMonomialIdeals"
   type: "refereed"
@@ -26,6 +27,7 @@
   year: 2026
   doi: ""
   arxiv: "2602.01782"
+  link: ""
 
 - id: "2025-etoAlmostGorensteinSimplicial2025"
   type: "refereed"
@@ -42,6 +44,7 @@
   year: 2025
   doi: "10.1016/j.jpaa.2024.107835"
   arxiv: "2406.05781"
+  link: ""
 
 - id: "2025-kumashiroNearlyGorensteinLocal2025"
   type: "refereed"
@@ -57,6 +60,7 @@
   year: 2025
   doi: "10.1007/s00233-025-10508-3"
   arxiv: "2308.04234"
+  link: ""
 
 - id: "2025-etoUpperBoundFrobenius2025"
   type: "refereed"
@@ -73,6 +77,7 @@
   year: 2025
   doi: "10.1080/00927872.2025.2498051"
   arxiv: ""
+  link: ""
 
 - id: "2025-rings-with-q-torsionfree-canonical-modules"
   type: "refereed"
@@ -93,6 +98,7 @@
   year: 2025
   doi: "10.1515/9783110999365-014"
   arxiv: "2301.02635"
+  link: ""
 
 - id: "2024-endoUlrichIdealsRing2024"
   type: "refereed"
@@ -109,6 +115,7 @@
   year: 2024
   doi: "10.1142/s0218196724500127"
   arxiv: ""
+  link: ""
 
 - id: "2024-endoRemarksAlmostGorenstein2024"
   type: "refereed"
@@ -123,6 +130,7 @@
   year: 2024
   doi: "10.1080/00927872.2024.2310163"
   arxiv: "2307.13479"
+  link: ""
 
 - id: "2023-IkumaStretched2023"
   type: "refereed"
@@ -137,6 +145,7 @@
   year: 2023
   doi: ""
   arxiv: ""
+  link: "https://meiji.repo.nii.ac.jp/records/17484"
 
 - id: "2023-endoWEAKLYARFS2IFICATIONS2023"
   type: "refereed"
@@ -153,6 +162,7 @@
   year: 2023
   doi: "10.1216/jca.2023.15.303"
   arxiv: "2204.12132"
+  link: ""
 
 - id: "2023-celikbasUBIQUITYARFRINGS2023"
   type: "refereed"
@@ -172,6 +182,7 @@
   year: 2023
   doi: "10.1216/jca.2023.15.177"
   arxiv: "2006.01330"
+  link: ""
 
 - id: "2022-endoWhenAreRings2022"
   type: "refereed"
@@ -188,6 +199,7 @@
   year: 2022
   doi: "10.1080/00927872.2022.2141764"
   arxiv: "2111.13338"
+  link: ""
 
 - id: "2020-kienMED2020"
   type: "refereed"
@@ -202,6 +214,7 @@
   year: 2020
   doi: "10.1007/978-3-030-40822-0_12"
   arxiv: ""
+  link: ""
 
 - id: "2020-endoEfficientGenerationIdeals2020"
   type: "refereed"
@@ -218,6 +231,7 @@
   year: 2020
   doi: "10.1090/proc/15032"
   arxiv: ""
+  link: ""
 
 - id: "2019-gotoAlmostGorensteinProperty2019"
   type: "refereed"
@@ -234,6 +248,7 @@
   year: 2019
   doi: "10.1215/21562261-2018-0001"
   arxiv: ""
+  link: ""
 
 - id: "2019-CGKM"
   type: "refereed"
@@ -250,6 +265,7 @@
   year: 2019
   doi: "10.1016/j.jalgebra.2018.11.023"
   arxiv: ""
+  link: ""
 
 - id: "2018-gotoAlmostGorensteinRees2018"
   type: "refereed"
@@ -266,6 +282,7 @@
   year: 2018
   doi: "10.1307/mmj/1516330972"
   arxiv: ""
+  link: ""
 
 - id: "2018-gotoPseudoFrobeniusNumbersDefining2018"
   type: "refereed"
@@ -282,6 +299,7 @@
   year: 2018
   doi: "10.1016/j.jalgebra.2018.04.025"
   arxiv: ""
+  link: ""
 
 - id: "2016-gotoAlmostGorensteinRees2016"
   type: "refereed"
@@ -298,6 +316,7 @@
   year: 2016
   doi: "10.1016/j.jpaa.2016.04.007"
   arxiv: ""
+  link: ""
 
 - id: "2016-gotoAlmostGorensteinRees2016-params"
   type: "refereed"
@@ -314,6 +333,7 @@
   year: 2016
   doi: "10.1016/j.jalgebra.2015.12.022"
   arxiv: ""
+  link: ""
 
 - id: "2016-matsuokaUniformlyCohenMacaulaySimplicial2016"
   type: "refereed"
@@ -328,6 +348,7 @@
   year: 2016
   doi: "10.1016/j.jalgebra.2016.02.005"
   arxiv: ""
+  link: ""
 
 - id: "2013-GMP"
   type: "refereed"
@@ -343,6 +364,7 @@
   year: 2013
   doi: "10.1016/j.jalgebra.2013.01.025"
   arxiv: "1106.1301"
+  link: ""
 
 - id: "2009-kuranoFiniteGenerationSymbolic2009"
   type: "refereed"
@@ -357,6 +379,7 @@
   year: 2009
   doi: "10.1016/j.jalgebra.2008.08.015"
   arxiv: ""
+  link: ""
 
 - id: "2009-gotoQuasisocleIdealsLocal2009"
   type: "refereed"
@@ -373,6 +396,7 @@
   year: 2009
   doi: "10.1216/jca-2009-1-4-603"
   arxiv: ""
+  link: ""
 
 - id: "2008-gotoQuasisocleIdealsGorenstein2008"
   type: "refereed"
@@ -388,6 +412,7 @@
   year: 2008
   doi: "10.1016/j.jalgebra.2008.01.015"
   arxiv: ""
+  link: ""
 
 - id: "2008-gotoQuasisocleIdealsGorenstein2008-local"
   type: "refereed"
@@ -403,6 +428,7 @@
   year: 2008
   doi: "10.1016/j.jpaa.2007.07.018"
   arxiv: ""
+  link: ""
 
 - id: "2006-matsuokaFrakmFullPowersParameter2006"
   type: "refereed"
@@ -416,3 +442,4 @@
   year: 2006
   doi: "10.3836/tjm/1170348175"
   arxiv: ""
+  link: ""
