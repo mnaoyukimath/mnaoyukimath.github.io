@@ -36,19 +36,19 @@ title: Publications
       <div>{{ paper.authors | join: ", " }}</div>
       <div class="pub-meta">
         <i>{{ paper.journal }}</i>
-        {% if paper.volume %} {{ paper.volume }}{% endif %}
-        {% if paper.number %}({{ paper.number }}){% endif %}
-        {% if paper.pages %}, {{ paper.pages }}{% endif %}
-        {% if paper.year %} ({{ paper.year }}){% endif %}.
+        {% if paper.volume and paper.volume != "" %} {{ paper.volume }}{% endif %}
+        {% if paper.number and paper.number != "" %}({{ paper.number }}){% endif %}
+        {% if paper.pages and paper.pages != "" %}, {{ paper.pages }}{% endif %}
+        {% if paper.year and paper.year != "" %} ({{ paper.year }}){% endif %}.
       </div>
       <div class="links">
-        {% if paper.doi %}
+        {% if paper.doi and paper.doi != "" %}
         <a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
         {% endif %}
-        {% if paper.arxiv %}
+        {% if paper.arxiv and paper.arxiv != "" %}
         <a href="https://arxiv.org/abs/{{ paper.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>
         {% endif %}
-        {% if paper.link %}
+        {% if paper.link and paper.link != "" %}
         <a href="{{ paper.link }}" target="_blank" rel="noopener noreferrer">Link</a>
         {% endif %}
       </div>
