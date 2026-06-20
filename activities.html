@@ -27,68 +27,83 @@ title: Activities
     <main>
     <h1>Activities</h1>
 
-    {% assign preprints = site.data.publications | where: "type", "preprint" %}
-    {% assign refereed = site.data.publications | where: "type", "refereed" %}
+    <h2>Monthly Seminar Organization</h2>
     
-      <h2>Refereed Papers</h2>
-      <ol reversed class="pub-list">
-        {% for paper in refereed %}
+    <ol>
       <li>
-      <div class="pub-title">{{ paper.title }}</div>
-      <div>{{ paper.authors | join: ", " }}</div>
-      <div class="pub-meta">
-        <i>{{ paper.journal }}</i>
-        {% if paper.volume and paper.volume != "" %} {{ paper.volume }}{% endif %}
-        {% if paper.number and paper.number != "" %}({{ paper.number }}){% endif %}
-        {% if paper.pages and paper.pages != "" %}, {{ paper.pages }}{% endif %}
-        {% if paper.year and paper.year != "" %} ({{ paper.year }}){% endif %}.
-      </div>
-      <div class="links">
-        {% if paper.doi and paper.doi != "" %}
-        <a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
-        {% endif %}
-        {% if paper.arxiv and paper.arxiv != "" %}
-        <a href="https://arxiv.org/abs/{{ paper.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>
-        {% endif %}
-        {% if paper.link and paper.link != "" %}
-        <a href="{{ paper.link }}" target="_blank" rel="noopener noreferrer">Link</a>
-        {% endif %}
-      </div>
+      <a href="https://www.ms.u-tokyo.ac.jp/~stakagi/ca_seminar/index.html"
+        target="_blank" rel="noopener noreferrer">
+        東京可換環論セミナー (Tokyo Commutative Algebra Seminar)
+      </a>
+      with Shunsuke Takagi and Ryo Takahashi
       </li>
-      {% endfor %}
+      <li>
+      明治大学可換環論セミナー
+      (closed; please contact me if you are interested in attending)
+      </li>
     </ol>
-
-    {% if preprints.size > 0 %}
-    <h2>Preprints</h2>
+    {% assign organizing = site.data.activities | where: "type", "organizing" %}
+    {% assign grants = site.data.activities | where: "type", "grant" %}
+    
+    <h2>Conferences and Workshops Organized</h2>
+    
     <ol reversed class="pub-list">
-      {% for paper in preprints %}
+      {% for activity in organizing %}
       <li>
-      <div class="pub-title">{{ paper.title }}</div>
-      <div>{{ paper.authors | join: ", " }}</div>
+      <div class="pub-title">
+        {% if activity.url != "" %}
+        <a href="{{ activity.url }}" target="_blank" rel="noopener noreferrer">{{ activity.title }}</a>
+        {% else %}
+        {{ activity.title }}
+        {% endif %}
+      </div>
+      
+      <div>{{ activity.role }}</div>
+      
       <div class="pub-meta">
-        <i>{{ paper.journal }}</i>
-        {% if paper.volume and paper.volume != "" %} {{ paper.volume }}{% endif %}
-        {% if paper.number and paper.number != "" %}({{ paper.number }}){% endif %}
-        {% if paper.pages and paper.pages != "" %}, {{ paper.pages }}{% endif %}
-        {% if paper.year and paper.year != "" %} ({{ paper.year }}){% endif %}.
-      </div>
-      <div class="links">
-        {% if paper.doi and paper.doi != "" %}
-        <a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
-        {% endif %}
-        {% if paper.arxiv and paper.arxiv != "" %}
-        <a href="https://arxiv.org/abs/{{ paper.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>
-        {% endif %}
-        {% if paper.link and paper.link != "" %}
-        <a href="{{ paper.link }}" target="_blank" rel="noopener noreferrer">Link</a>
+        {{ activity.location }}{% if activity.country != "" %} ({{ activity.country }}){% endif %},
+        {% assign start_parts = activity.date_start | split: "-" %}
+        {% assign end_parts = activity.date_end | split: "-" %}
+        
+        {% if activity.date_start == activity.date_end %}
+        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日.
+        {% elsif start_parts[0] == end_parts[0] and start_parts[1] == end_parts[1] %}
+        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日–{{ end_parts[2] | plus: 0 }}日.
+        {% elsif start_parts[0] == end_parts[0] %}
+        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日–{{ end_parts[1] | plus: 0 }}月{{ end_parts[2] | plus: 0 }}日.
+        {% else %}
+        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日–{{ end_parts[0] }}年{{ end_parts[1] | plus: 0 }}月{{ end_parts[2] | plus: 0 }}日.
         {% endif %}
       </div>
+      
+      {% if activity.note != "" %}
+      <div class="pub-meta">{{ activity.note }}</div>
+      {% endif %}
       </li>
       {% endfor %}
     </ol>
-    {% endif %}
+    
+    <h2>Research Grants</h2>
+    
+    <ol reversed class="pub-list">
+      {% for activity in grants %}
+      <li>
+      <div class="pub-title">{{ activity.title }}</div>
+      <div>{{ activity.role }}</div>
+      
+      <div class="pub-meta">
+        {% assign start_parts = activity.date_start | split: "-" %}
+        {% assign end_parts = activity.date_end | split: "-" %}
+        {{ start_parts[0] }}–{{ end_parts[0] }}.
+      </div>
+      
+      {% if activity.note != "" %}
+      <div class="pub-meta">{{ activity.note }}</div>
+      {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
     </main>
-
     
     <footer>
       <p>Naoyuki Matsuoka / Meiji University</p>
