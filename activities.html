@@ -29,7 +29,7 @@ title: Activities
 
     <h2>Monthly Seminar Organization</h2>
     
-    <ol>
+    <ul>
       <li>
       <a href="https://www.ms.u-tokyo.ac.jp/~stakagi/ca_seminar/index.html"
         target="_blank" rel="noopener noreferrer">
@@ -41,7 +41,7 @@ title: Activities
       明治大学可換環論セミナー
       (closed; please contact me if you are interested in attending)
       </li>
-    </ol>
+    </ul>
     {% assign organizing = site.data.activities | where: "type", "organizing" %}
     {% assign grants = site.data.activities | where: "type", "grant" %}
     
@@ -57,8 +57,6 @@ title: Activities
         {{ activity.title }}
         {% endif %}
       </div>
-      
-      <div>{{ activity.role }}</div>
       
       <div class="pub-meta">
         {{ activity.location }}{% if activity.country != "" %} ({{ activity.country }}){% endif %},
@@ -89,7 +87,6 @@ title: Activities
       {% for activity in grants %}
       <li>
       <div class="pub-title">{{ activity.title }}</div>
-      <div>{{ activity.role }}</div>
       
       <div class="pub-meta">
         {% assign start_parts = activity.date_start | split: "-" %}
@@ -106,7 +103,10 @@ title: Activities
     </main>
     
     <footer>
-      <p>Naoyuki Matsuoka / Meiji University</p>
+      <p>
+        Naoyuki Matsuoka / Meiji University <br />
+        Email: naomatsu [at] meiji.ac.jp
+      </p>
     </footer>
     
   </body>
