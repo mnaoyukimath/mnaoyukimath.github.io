@@ -1,0 +1,73 @@
+---
+title: Talks
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Talks | Naoyuki Matsuoka</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    
+    <header>
+      <div class="site-header">
+        <p class="site-title">Naoyuki Matsuoka</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="talks.html">Talks</a>
+        <a href="activities.html">Activities</a>
+        <a href="https://www.isc.meiji.ac.jp/~naomatsu/" target="_blank" rel="noopener noreferrer">Laboratory Page</a>
+      </nav>
+    </header>
+    
+    <main>
+    <h1>Talks</h1>
+    
+    <ol reversed class="pub-list">
+      {% for talk in site.data.talks %}
+      <li>
+      <span class="pub-title">{{ talk.title }}</span>
+      {% if talk.co-speakers.size > 0 %}
+      <span class="pub-meta">
+        (joint work with {{ talk.co-speakers | join: ", " }})
+      </span>
+      {% endif %}
+      ,
+      {{ talk.event }},
+      {{ talk.location }}{% if talk.country != "" %} ({{ talk.country }}){% endif %},
+      {% assign date_parts = talk.date | split: "-" %}
+      {% if date_parts.size == 3 %}
+      {{ date_parts[0] }}年{{ date_parts[1] | plus: 0 }}月{{ date_parts[2] | plus: 0 }}日.
+      {% elsif date_parts.size == 2 %}
+      {{ date_parts[0] }}年{{ date_parts[1] | plus: 0 }}月.
+      {% else %}
+      {{ talk.date }}.
+      {% endif %}
+      
+      {% if talk.invited %}
+      <span class="pub-meta">[Invited]</span>
+      {% endif %}
+      
+      <div class="links">
+        {% if talk.slides != "" %}
+        <a href="{{ talk.slides }}" target="_blank" rel="noopener noreferrer">Slides</a>
+        {% endif %}
+        {% if talk.link != "" %}
+        <a href="{{ talk.link }}" target="_blank" rel="noopener noreferrer">Link</a>
+        {% endif %}
+      </div>
+      </li>
+      {% endfor %}
+    </ol>
+    </main>
+    
+    <footer>
+      <p>Naoyuki Matsuoka / Meiji University</p>
+    </footer>
+    
+  </body>
+</html>

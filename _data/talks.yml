@@ -1,0 +1,651 @@
+- id: "2026-toho"
+  title: "数値半群環の定義イデアルとその応用"
+  co-speakers: []
+  event: "可換代数と組合せ論セミナー"
+  date: "2026-06-06"
+  location: "千葉"
+  country: ""
+  invited: true
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2025-46symp-stretched"
+  title: "Stretched semigroup rings and 2-minor generation in defining ideals"
+  co-speakers:
+    - "Kazufumi Eto"
+    - "Takahiro Numata"
+    - "Kei-ichi Watanabe"
+  event: "第46回可換環論シンポジウム"
+  date: "2025-11-21"
+  location: "大阪"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2025-kirishima"
+  title: "3変数多項式環の単項式イデアルの正規性について"
+  co-speakers: []
+  event: "Commutative Algebra Days in Kirishima"
+  date: "2025-10-31"
+  location: "鹿児島"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2024-45symp-frobenius"
+  title: "An upper bound for the Frobenius number and stretched numerical semigroups"
+  co-speakers:
+    - "Kazufumi Eto"
+    - "Takahiro Numata"
+    - "Kei-ichi Watanabe"
+  event: "第45回可換環論シンポジウム"
+  date: "2024-11-21"
+  location: "京都"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2024-bangkok"
+  title: "Numerical semigroup rings -- A foundation of combinatorial perspective on commutative algebra"
+  co-speakers: []
+  event: "Interactions of Commutative Algebra, Representation Theory, and Combinatorics in Bangkok"
+  date: "2024-10-30"
+  location: "Bangkok"
+  country: "Thailand"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2024-jerez"
+  title: "Nearly Gorenstein local rings defined by maximal minors of a $2 \\times n$ matrix"
+  co-speakers: []
+  event: "International Meeting on Numerical Semigroups 2024"
+  date: "2024-07-11"
+  location: "Jerez de la Frontera"
+  country: "Spain"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2023-68algsymp"
+  title: "1次元解析を基盤とした局所環論"
+  co-speakers: []
+  event: "第68回代数学シンポジウム"
+  date: "2023-08-30"
+  location: "名古屋"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2023-waseda"
+  title: "Numerical semigroup rings with determinantal defining ideals"
+  co-speakers: []
+  event: "One day workshop on Commutative Algebra"
+  date: "2023-02-06"
+  location: "Tokyo"
+  country: "Japan"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2021-tokyoseminar"
+  title: "Ulrich ideals in numerical semigroup rings"
+  co-speakers: []
+  event: "東京可換環論セミナー"
+  date: "2021-10-12"
+  location: "オンライン"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2019-cjk"
+  title: "Efficient generation of ideals in core subalgebras of the polynomial ring k[t] over a field k"
+  co-speakers: []
+  event: "The 8th China–Japan–Korea International Symposium on Ring Theory"
+  date: "2019-08-27"
+  location: "Nagoya"
+  country: "Japan"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2018-10JV"
+  title: "The GGL property of numerical semigroup rings obtained by gluing"
+  co-speakers: []
+  event: "The 10th Japan-Vietnam Joint Seminar on Commutative Algebra"
+  date: "2018-09-11"
+  location: "Hanoi"
+  country: "Vietnam"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2018-indam"
+  title: "The generalized Gorenstein property and numerical semigroup rings obtained by gluing"
+  co-speakers: []
+  event: "INdAM Meeting: International Meeting on Numerical Semigroups"
+  date: "2018-09-06"
+  location: "Cortona"
+  country: "Italy"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2017-39symp"
+  title: "Pseudo-Frobenius numbers versus defining ideals in numerical semigroup rings"
+  co-speakers: []
+  event: "第39回可換環論シンポジウム"
+  date: "2017-11"
+  location: "京都"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2017-hoa60"
+  title: "Pseudo-Frobenius numbers versus defining ideals in numerical semigroup rings"
+  co-speakers: []
+  event: "International Conference on Commutative Algebra and its Interactions to Combinatorics, Discrete Geometry and Singularity Theory"
+  date: "2017-09"
+  location: "Hanoi"
+  country: "Vietnam"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2017-28seminar"
+  title: "Pseudo-Frobenius numbers and the generation of the defining ideal"
+  co-speakers: []
+  event: "第28回可換環論セミナー"
+  date: "2017-02"
+  location: "山口"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2016-jvws"
+  title: "The minimal free resolution of a numerical semigroup ring with arithmetic pseudo-Frobenius numbers of type 3"
+  co-speakers: []
+  event: "Japan-Vietnam Workshop on Commutative Algebra 2016 - by and for young mathematicians -"
+  date: "2016-09"
+  location: "Kawasaki"
+  country: "Japan"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2016-8jv"
+  title: "On the almost Gorenstein property in Rees algebras of contracted ideals"
+  co-speakers: []
+  event: "The 8th Japan-Vietnam Joint Seminar on Commutative Algebra"
+  date: "2016-03"
+  location: "Hanoi"
+  country: "Vietnam"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2016-msj"
+  title: "The almost Gorenstein Rees algebras of contracted ideals"
+  co-speakers:
+    - "Shiro Goto"
+    - "Naoki Taniguchi"
+    - "Ken-ichi Yoshida"
+  event: "2016年日本数学会年会"
+  date: "2016-03"
+  location: "つくば"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2016-halong"
+  title: "Minimal free resolutions of certain almost Gorenstein numerical semigroup rings"
+  co-speakers: []
+  event: "Workshop on Commutative Algebra"
+  date: "2016-01"
+  location: "Ha Long"
+  country: "Vietnam"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2015-jv"
+  title: "The almost Gorenstenness of Rees algebras of contracted ideals in 2-dimensional regular local rings"
+  co-speakers: []
+  event: "The JV Seminar on Commutative Algebra - by and for young mathematicians -"
+  date: "2015-09"
+  location: "Kawasaki"
+  country: "Japan"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2015-msj2"
+  title: "The almost Gorenstein Rees algebras of socle ideals"
+  co-speakers:
+    - "Shiro Goto"
+    - "Naoki Taniguchi"
+    - "Ken-ichi Yoshida"
+  event: "2015年日本数学会秋季年会"
+  date: "2015-09"
+  location: "京都"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2015-msj1"
+  title: "2次元正規特異点のpg-idealのRees代数のAlmost Gorenstein性"
+  co-speakers:
+    - "Shiro Goto"
+    - "Naoki Taniguchi"
+    - "Ken-ichi Yoshida"
+  event: "2015年日本数学会秋季年会"
+  date: "2015-09"
+  location: "京都"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2014-indam"
+  title: "Almost Gorenstein rings"
+  co-speakers: []
+  event: "INdAM Meeting: International Meeting on Numerical Semigroups"
+  date: "2014-09"
+  location: "Cortona"
+  country: "Italy"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2012-iima2"
+  title: "Applications of one-dimensional almost Gorenstein rings"
+  co-speakers: []
+  event: "第8回大和郡山セミナー"
+  date: "2012-01"
+  location: "大和郡山"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2012-iima1"
+  title: "Basic properties of one-dimensional almost Gorenstein rings"
+  co-speakers: []
+  event: "第8回大和郡山セミナー"
+  date: "2012-01"
+  location: "大和郡山"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2011-7jv"
+  title: "Almost Gorenstein rings — One dimensional case"
+  co-speakers: []
+  event: "The 7th Japan-Vietnam Joint Seminar on Commutative Algebra"
+  date: "2011-12"
+  location: "Quy Nhon"
+  country: "Vietnam"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2011-33symp"
+  title: "Almost Gorenstein rings"
+  co-speakers:
+    - "Shiro Goto"
+    - "Tran Thi Phuong"
+  event: "第33回可換環論シンポジウム"
+  date: "2011-11"
+  location: "浜松"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2011-iima"
+  title: "Almost Gorenstein rings"
+  co-speakers: []
+  event: "第6回大和郡山セミナー"
+  date: "2011-08"
+  location: "大和郡山"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2010-iima"
+  title: "2変数単項式イデアルのRatliff-Rush閉包について"
+  co-speakers: []
+  event: "第2回大和郡山セミナー"
+  date: "2010-10"
+  location: "大和郡山"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2010-7ss2"
+  title: "Divisor class groups of algebras of minors"
+  co-speakers: []
+  event: "第7回可換環論サマースクール"
+  date: "2010-08"
+  location: "東京"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2010-7ss2"
+  title: "ASL structure and determinantal ideals"
+  co-speakers: []
+  event: "第7回可換環論サマースクール"
+  date: "2010-08"
+  location: "東京"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2008-msj2"
+  title: "Quasi-socle ideals in Gorenstein numerical semigroup rings"
+  co-speakers:
+    - "Shiro Goto"
+    - "Satoru Kimura"
+  event: "2008年日本数学会年会"
+  date: "2008-03"
+  location: "東京"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2008-msj1"
+  title: "Quasi-socle ideals in local rings with Gorenstein tangent cones"
+  co-speakers:
+    - "Shiro Goto"
+    - "Satoru Kimura"
+  event: "2008年日本数学会年会"
+  date: "2008-03"
+  location: "東京"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2007-3jv"
+  title: "Quasi-socle ideals in a Gorenstein local ring"
+  co-speakers: []
+  event: "The 3rd Japan-Vietnam Joint Seminar on Commutative Algebra"
+  date: "2007-12"
+  location: "Hanoi"
+  country: "Vietnam"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2007-29symp"
+  title: "Quasi-socle ideals in local rings with Gorenstein tangent cones"
+  co-speakers:
+    - "Shiro Goto"
+    - "Satoru Kimura"
+    - "Tran Thi Phuong"
+  event: "第29回可換環論シンポジウム"
+  date: "2007-11"
+  location: "名古屋"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2007-msj"
+  title: "Quasi-socle ideals in a Gorenstein local ring"
+  co-speakers:
+    - "Shiro Goto"
+    - "Ryo Takahashi"
+  event: "2007年日本数学会秋季年会"
+  date: "2007-09"
+  location: "仙台"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2007-19seminar"
+  title: "Quasi-socle ideals in a Gorenstein local ring"
+  co-speakers: []
+  event: "第19回可換環論セミナー"
+  date: "2007-01"
+  location: "福岡"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2006-3ss"
+  title: "Macaulay2によるfree resolutionの計算"
+  co-speakers: []
+  event: "第3回可換環論サマースクール"
+  date: "2006-09"
+  location: "東京"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2006-msj"
+  title: "The Rees algebras of ideals in two dimensional regular local rings"
+  co-speakers:
+    - "Shiro Goto"
+  event: "2006年日本数学会年会"
+  date: "2006-03"
+  location: "東京"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2006-2jv"
+  title: "The Rees algebras of ideals in two dimensional regular local rings"
+  co-speakers: []
+  event: "The 2nd Japan-Vietnam Joint Seminar on Commutative Algebra"
+  date: "2006-03"
+  location: "川崎"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2006-18seminar"
+  title: "The Rees algebras of ideals in two dimensional regular local rings, II"
+  co-speakers: []
+  event: "第18回可換環論セミナー"
+  date: "2006-01"
+  location: "札幌"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2005-27symp"
+  title: "The Rees algebras of ideals in two dimensional regular local ring"
+  co-speakers:
+    - "Shiro Goto"
+  event: "第27回可換環論シンポジウム"
+  date: "2005-11"
+  location: "富山"
+  country: ""
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2005-msj"
+  title: "2次元単項式イデアルのRatliff-Rush閉包とRees代数のBuchsbaum性について"
+  co-speakers: []
+  event: "2005年日本数学会秋季年会"
+  date: "2005-09"
+  location: "岡山"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2005-nebraska"
+  title: "Ratliff-Rush closures of certain 2-dimensional monomial ideals and Buchsbaumness of its Rees algebras"
+  co-speakers: []
+  event: "Nebraska Commutative Algebra Conference: WiegandFest"
+  date: "2005-05"
+  location: "Nebraska"
+  country: "USA"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2005-10wakate"
+  title: "2次元単項式イデアルのRatliff-Rush閉包とRees代数のBuchsbaum性について"
+  co-speakers: []
+  event: "第10回代数学若手研究集会"
+  date: "2005-03"
+  location: "松本"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2005-17seminar"
+  title: "単項式イデアルのRatliff-Rush閉包について"
+  co-speakers: []
+  event: "第17回可換環論セミナー"
+  date: "2005-01"
+  location: "京都"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2004-26symp"
+  title: "単項式イデアルのRatliff-Rush閉包について"
+  co-speakers: []
+  event: "第26回可換環論シンポジウム"
+  date: "2004-11"
+  location: "倉敷"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""
+
+- id: "2004-16seminar"
+  title: "巴系イデアルの冪の整閉性と局所環の正則性について"
+  co-speakers: []
+  event: "第16回可換環論セミナー"
+  date: "2004-01"
+  location: "東京"
+  country: ""
+  invited: false
+  language: "jp"
+  slides: ""
+  link: ""
+  note: ""

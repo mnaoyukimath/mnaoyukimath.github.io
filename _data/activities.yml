@@ -1,0 +1,24 @@
+- id: "2026-jvseminar"
+  type: "organizing"
+  title: "Joint Vietnam-Japan Seminar on Commutative Algebra"
+  role: "Organizer"
+  date_start: "2026-09-09"
+  date_end: "2026-09-12"
+  year: 2026
+  location: "Nha Trang, Vietnam"
+  country: "Vietnam"
+  url: ""
+  note: ""
+
+- id: "kakenC-2024-2027"
+  type: "grant"
+  title: "Gorenstein性との差異を指標とした局所環分類の新展開"
+  role: "Principal Investigator"
+  date_start: "2024-04-01"
+  date_end: "2028-03-31"
+  year: 2024
+  location: ""
+  country: "Japan"
+  url: ""
+  note: "JSPS KAKENHI"
+  
