@@ -63,17 +63,22 @@ title: Activities
         {{ activity.location }}{% if activity.country != "" %} ({{ activity.country }}){% endif %},
         {% assign start_parts = activity.date_start | split: "-" %}
         {% assign end_parts = activity.date_end | split: "-" %}
+        {% assign month_names = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," %}
+        
+        {% assign start_month_index = start_parts[1] | minus: 1 %}
+        {% assign end_month_index = end_parts[1] | minus: 1 %}
+        {% assign start_month_name = month_names[start_month_index] %}
+        {% assign end_month_name = month_names[end_month_index] %}
         
         {% if activity.date_start == activity.date_end %}
-        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日.
+        {{ start_parts[2] | plus: 0 }} {{ start_month_name }} {{ start_parts[0] }}.
         {% elsif start_parts[0] == end_parts[0] and start_parts[1] == end_parts[1] %}
-        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日–{{ end_parts[2] | plus: 0 }}日.
+        {{ start_parts[2] | plus: 0 }}–{{ end_parts[2] | plus: 0 }} {{ start_month_name }} {{ start_parts[0] }}.
         {% elsif start_parts[0] == end_parts[0] %}
-        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日–{{ end_parts[1] | plus: 0 }}月{{ end_parts[2] | plus: 0 }}日.
+        {{ start_parts[2] | plus: 0 }} {{ start_month_name }}–{{ end_parts[2] | plus: 0 }} {{ end_month_name }} {{ start_parts[0] }}.
         {% else %}
-        {{ start_parts[0] }}年{{ start_parts[1] | plus: 0 }}月{{ start_parts[2] | plus: 0 }}日–{{ end_parts[0] }}年{{ end_parts[1] | plus: 0 }}月{{ end_parts[2] | plus: 0 }}日.
-        {% endif %}
-      </div>
+        {{ start_parts[2] | plus: 0 }} {{ start_month_name }} {{ start_parts[0] }}–{{ end_parts[2] | plus: 0 }} {{ end_month_name }} {{ end_parts[0] }}.
+      {% endif %}      </div>
       
       {% if activity.note != "" %}
       <div class="pub-meta">{{ activity.note }}</div>
