@@ -40,14 +40,17 @@ title: Talks
       {{ talk.event }},
       {{ talk.location }}{% if talk.country != "" %} ({{ talk.country }}){% endif %},
       {% assign date_parts = talk.date | split: "-" %}
+      {% assign month_names = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," %}
+      {% assign month_index = date_parts[1] | minus: 1 %}
+      {% assign month_name = month_names[month_index] %}
+      
       {% if date_parts.size == 3 %}
-      {{ date_parts[0] }}年{{ date_parts[1] | plus: 0 }}月{{ date_parts[2] | plus: 0 }}日.
+      {{ date_parts[2] | plus: 0 }} {{ month_name }} {{ date_parts[0] }}.
       {% elsif date_parts.size == 2 %}
-      {{ date_parts[0] }}年{{ date_parts[1] | plus: 0 }}月.
+      {{ month_name }} {{ date_parts[0] }}.
       {% else %}
       {{ talk.date }}.
-      {% endif %}
-      
+      {% endif %}      
       <div class="links">
         {% if talk.slides != "" %}
         <a href="{{ talk.slides }}" target="_blank" rel="noopener noreferrer">Slides</a>
