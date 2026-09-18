@@ -1,4 +1,18 @@
-- id: "2025-kumashiroPseudoFrobenisnumbers"
+- id: "2026-Normalitynonstandard"
+  type: "preprint"
+  title: "Normality of ideals beyond the standard graded setting: families from numerical semigroup rings"
+  authors:
+    - "Naoyuki Matsuoka"
+  journal: "submitted"
+  volume: ""
+  number: ""
+  pages: ""
+  year: 2026
+  doi: ""
+  arxiv: "2609.18087 "
+  link: ""
+
+- id: "2025-kienozakiPseudoFrobenisnumbers"
   type: "preprint"
   title: "Pseudo-Frobenius numbers and defining ideals in stretched numerical semigroup rings"
   authors:
