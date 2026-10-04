@@ -1,3 +1,22 @@
+- id: "2026-etoAlmostSymmetricACI"
+  type: "preprint"
+  title: "The structure of almost symmetric almost complete intersection numerical semigroups"
+  authors:
+    - "Kazufumi Eto"
+    - "Naoyuki Matsuoka"
+    - "Alessio Moscariello"
+    - "Takahiro Numata"
+    - "Alessio Sammartano"
+    - "Kei-ichi Watanabe"
+  journal: "in preparation"
+  volume: ""
+  number: ""
+  pages: ""
+  year: 2026
+  doi: ""
+  arxiv: "2609.24880"
+  link: ""
+
 - id: "2026-Normalitynonstandard"
   type: "preprint"
   title: "Normality of ideals beyond the standard graded setting: families from numerical semigroup rings"
@@ -9,7 +28,7 @@
   pages: ""
   year: 2026
   doi: ""
-  arxiv: "2609.18087 "
+  arxiv: "2609.18087"
   link: ""
 
 - id: "2025-kienozakiPseudoFrobenisnumbers"
