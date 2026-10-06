@@ -1,3 +1,18 @@
+- id: "2026-hoangTracesPowersCanonical"
+  type: "preprint"
+  title: "Traces of powers of canonical ideals"
+  authors:
+    - "Le Truong Hoang"
+    - "Naoyuki Matsuoka"
+  journal: "submitted"
+  volume: ""
+  number: ""
+  pages: ""
+  year: 2026
+  doi: ""
+  arxiv: "2610.05150"
+  link: ""
+
 - id: "2026-etoAlmostSymmetricACI"
   type: "preprint"
   title: "The structure of almost symmetric almost complete intersection numerical semigroups"
