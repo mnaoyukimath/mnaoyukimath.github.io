@@ -6,6 +6,7 @@ title: Naoyuki Matsuoka
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Naoyuki Matsuoka</title>
 		<link rel="stylesheet" href="assets/style.css">
 	</head>
@@ -28,6 +29,25 @@ title: Naoyuki Matsuoka
 		
 		<main>
 		<h1>Research Page</h1>
+
+        <!-- Temporary link: shown through 30 November 2026 (Japan time). -->
+        <section class="card" id="okayama-slides-notice" hidden
+                 data-visible-from="2026-11-20T00:00:00+09:00"
+                 data-visible-until="2026-12-01T00:00:00+09:00">
+          <h2>Talk slides</h2>
+          <p><a href="talks.html#2026-47symp-normality">Normality of ideals arising from numerical semigroup rings</a><br>
+          25 November 2026 · The 47th Japan Symposium on Commutative Algebra, Okayama</p>
+          <p><a href="assets/slides/2026-11-25-normality-semigroup.pdf">Slides (PDF)</a></p>
+        </section>
+        <script>
+          (() => {
+            const notice = document.getElementById("okayama-slides-notice");
+            const now = Date.now();
+            notice.hidden = !(Date.parse(notice.dataset.visibleFrom) <= now &&
+                              now < Date.parse(notice.dataset.visibleUntil));
+          })();
+        </script>
+
 		
 		<section class="card">
 			<p>

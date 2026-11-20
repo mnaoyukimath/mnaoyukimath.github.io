@@ -1,3 +1,16 @@
+- id: "2026-47symp-normality"
+  title: "Normality of ideals arising from numerical semigroup rings"
+  co-speakers: []
+  event: "The 47th Japan Symposium on Commutative Algebra"
+  date: "2026-11-25"
+  location: "Okayama"
+  country: "Japan"
+  invited: false
+  language: "en"
+  slides: "assets/slides/2026-11-25-normality-semigroup.pdf"
+  link: ""
+  note: "Slides prepared and posted before the talk."
+
 - id: "2026-sat1"
   title: "Normality of monomial ideals in three variables"
   co-speakers: []

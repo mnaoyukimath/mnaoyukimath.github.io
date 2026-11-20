@@ -6,6 +6,7 @@ title: Talks
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Talks | Naoyuki Matsuoka</title>
     <link rel="stylesheet" href="assets/style.css">
   </head>
@@ -29,7 +30,7 @@ title: Talks
     
     <ol reversed class="pub-list">
       {% for talk in site.data.talks %}
-      <li>
+      <li{% if talk.id == "2026-47symp-normality" %} id="2026-47symp-normality"{% endif %}>
       <span class="pub-title">{{ talk.title }}</span>
       {% if talk.co-speakers.size > 0 %}
       <span class="pub-meta">
