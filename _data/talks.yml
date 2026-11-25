@@ -1,3 +1,19 @@
+- id: "2026-47symp-almost-gorenstein"
+  title: "Almost Gorenstein numerical semigroup rings which are almost complete intersection"
+  co-speakers:
+    - "Kazufumi Eto"
+    - "Takahiro Numata"
+    - "Kei-ichi Watanabe"
+  event: "The 47th Japan Symposium on Commutative Algebra"
+  date: "2026-11-25"
+  location: "Okayama"
+  country: "Japan"
+  invited: false
+  language: "en"
+  slides: ""
+  link: ""
+  note: ""
+
 - id: "2026-47symp-normality"
   title: "Normality of ideals arising from numerical semigroup rings"
   co-speakers: []
