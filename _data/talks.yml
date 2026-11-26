@@ -4,7 +4,7 @@
     - "Kazufumi Eto"
     - "Takahiro Numata"
     - "Kei-ichi Watanabe"
-  event: "The 47th Japan Symposium on Commutative Algebra"
+  event: "第47回可換環論シンポジウム"
   date: "2026-11-25"
   location: "Okayama"
   country: "Japan"
@@ -17,7 +17,7 @@
 - id: "2026-47symp-normality"
   title: "Normality of ideals arising from numerical semigroup rings"
   co-speakers: []
-  event: "The 47th Japan Symposium on Commutative Algebra"
+  event: "第47回可換環論シンポジウム"
   date: "2026-11-25"
   location: "Okayama"
   country: "Japan"
