@@ -47,17 +47,17 @@
   link: ""
 
 - id: "2025-kienozakiPseudoFrobenisnumbers"
-  type: "preprint"
+  type: "refereed"
   title: "Pseudo-Frobenius numbers and defining ideals in stretched numerical semigroup rings"
   authors:
     - "Do Van Kien"
     - "Naoyuki Matsuoka"
     - "Taiga Ozaki"
-  journal: "submitted"
-  volume: ""
+  journal: "Journal of Algebra"
+  volume: "to appear"
   number: ""
   pages: ""
-  year: 2025
+  year: ""
   doi: ""
   arxiv: "2501.06415"
   link: ""
